@@ -37,9 +37,9 @@
             // 
             // btnToReportForm
             // 
-            this.btnToReportForm.Location = new System.Drawing.Point(60, 456);
+            this.btnToReportForm.Location = new System.Drawing.Point(12, 416);
             this.btnToReportForm.Name = "btnToReportForm";
-            this.btnToReportForm.Size = new System.Drawing.Size(113, 36);
+            this.btnToReportForm.Size = new System.Drawing.Size(133, 37);
             this.btnToReportForm.TabIndex = 4;
             this.btnToReportForm.Text = "К отчетам";
             this.btnToReportForm.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@
             // 
             // btnToDishForm
             // 
-            this.btnToDishForm.Location = new System.Drawing.Point(411, 450);
+            this.btnToDishForm.Location = new System.Drawing.Point(258, 416);
             this.btnToDishForm.Name = "btnToDishForm";
-            this.btnToDishForm.Size = new System.Drawing.Size(111, 42);
+            this.btnToDishForm.Size = new System.Drawing.Size(133, 37);
             this.btnToDishForm.TabIndex = 3;
             this.btnToDishForm.Text = "К блюдам";
             this.btnToDishForm.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // btnToMainForm
             // 
-            this.btnToMainForm.Location = new System.Drawing.Point(778, 450);
+            this.btnToMainForm.Location = new System.Drawing.Point(509, 416);
             this.btnToMainForm.Name = "btnToMainForm";
-            this.btnToMainForm.Size = new System.Drawing.Size(112, 45);
+            this.btnToMainForm.Size = new System.Drawing.Size(133, 37);
             this.btnToMainForm.TabIndex = 2;
             this.btnToMainForm.Text = "На главную";
             this.btnToMainForm.UseVisualStyleBackColor = true;
@@ -67,6 +67,8 @@
             // 
             // dgvProducts
             // 
+            this.dgvProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvProducts.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProducts.Location = new System.Drawing.Point(12, 82);
             this.dgvProducts.Name = "dgvProducts";
@@ -79,7 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1420, 764);
+            this.ClientSize = new System.Drawing.Size(664, 517);
             this.Controls.Add(this.btnToReportForm);
             this.Controls.Add(this.btnToDishForm);
             this.Controls.Add(this.btnToMainForm);

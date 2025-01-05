@@ -44,58 +44,73 @@
             // 
             // dgvDishes
             // 
+            this.dgvDishes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDishes.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDishes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDishes.Location = new System.Drawing.Point(24, 81);
             this.dgvDishes.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDishes.Name = "dgvDishes";
             this.dgvDishes.RowHeadersWidth = 51;
-            this.dgvDishes.Size = new System.Drawing.Size(585, 234);
+            this.dgvDishes.Size = new System.Drawing.Size(882, 246);
             this.dgvDishes.TabIndex = 0;
             this.dgvDishes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDishes_CellContentClick_1);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(24, 356);
+            this.txtName.BackColor = System.Drawing.SystemColors.Window;
+            this.txtName.Location = new System.Drawing.Point(209, 352);
             this.txtName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(132, 22);
+            this.txtName.Size = new System.Drawing.Size(204, 22);
             this.txtName.TabIndex = 1;
+            this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtName.Enter += new System.EventHandler(this.TxtName_Enter);
             this.txtName.Leave += new System.EventHandler(this.TxtName_Leave);
             // 
             // txtCategory
             // 
-            this.txtCategory.Location = new System.Drawing.Point(165, 356);
+            this.txtCategory.BackColor = System.Drawing.SystemColors.Window;
+            this.txtCategory.Location = new System.Drawing.Point(209, 433);
             this.txtCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCategory.Multiline = true;
             this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(132, 22);
+            this.txtCategory.Size = new System.Drawing.Size(204, 22);
             this.txtCategory.TabIndex = 2;
+            this.txtCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCategory.Enter += new System.EventHandler(this.txtCategory_Enter);
             this.txtCategory.Leave += new System.EventHandler(this.TxtCategory_Leave);
             // 
             // txtRecipe
             // 
-            this.txtRecipe.Location = new System.Drawing.Point(307, 356);
+            this.txtRecipe.BackColor = System.Drawing.SystemColors.Window;
+            this.txtRecipe.Location = new System.Drawing.Point(515, 352);
             this.txtRecipe.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRecipe.Multiline = true;
             this.txtRecipe.Name = "txtRecipe";
-            this.txtRecipe.Size = new System.Drawing.Size(132, 22);
+            this.txtRecipe.Size = new System.Drawing.Size(204, 22);
             this.txtRecipe.TabIndex = 3;
+            this.txtRecipe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtRecipe.TextChanged += new System.EventHandler(this.txtRecipe_TextChanged_1);
             this.txtRecipe.Enter += new System.EventHandler(this.TxtRecipe_Enter);
             this.txtRecipe.Leave += new System.EventHandler(this.TxtRecipe_Leave);
             // 
             // txtPortionWeight
             // 
-            this.txtPortionWeight.Location = new System.Drawing.Point(448, 356);
+            this.txtPortionWeight.BackColor = System.Drawing.SystemColors.Window;
+            this.txtPortionWeight.Location = new System.Drawing.Point(515, 433);
             this.txtPortionWeight.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPortionWeight.Multiline = true;
             this.txtPortionWeight.Name = "txtPortionWeight";
-            this.txtPortionWeight.Size = new System.Drawing.Size(132, 22);
+            this.txtPortionWeight.Size = new System.Drawing.Size(204, 22);
             this.txtPortionWeight.TabIndex = 4;
+            this.txtPortionWeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPortionWeight.Enter += new System.EventHandler(this.txtPortionWeight_Enter);
             this.txtPortionWeight.Leave += new System.EventHandler(this.txtPortionWeight_Leave);
             // 
             // btnAddDish
             // 
-            this.btnAddDish.Location = new System.Drawing.Point(24, 393);
+            this.btnAddDish.Location = new System.Drawing.Point(140, 484);
             this.btnAddDish.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddDish.Name = "btnAddDish";
             this.btnAddDish.Size = new System.Drawing.Size(133, 37);
@@ -106,7 +121,7 @@
             // 
             // btnDeleteDish
             // 
-            this.btnDeleteDish.Location = new System.Drawing.Point(165, 393);
+            this.btnDeleteDish.Location = new System.Drawing.Point(390, 484);
             this.btnDeleteDish.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteDish.Name = "btnDeleteDish";
             this.btnDeleteDish.Size = new System.Drawing.Size(133, 37);
@@ -117,7 +132,7 @@
             // 
             // btnToMainForm
             // 
-            this.btnToMainForm.Location = new System.Drawing.Point(448, 393);
+            this.btnToMainForm.Location = new System.Drawing.Point(631, 553);
             this.btnToMainForm.Margin = new System.Windows.Forms.Padding(4);
             this.btnToMainForm.Name = "btnToMainForm";
             this.btnToMainForm.Size = new System.Drawing.Size(133, 37);
@@ -128,7 +143,7 @@
             // 
             // btnToReportForm
             // 
-            this.btnToReportForm.Location = new System.Drawing.Point(24, 455);
+            this.btnToReportForm.Location = new System.Drawing.Point(140, 553);
             this.btnToReportForm.Margin = new System.Windows.Forms.Padding(4);
             this.btnToReportForm.Name = "btnToReportForm";
             this.btnToReportForm.Size = new System.Drawing.Size(133, 37);
@@ -139,7 +154,7 @@
             // 
             // btnEditDish
             // 
-            this.btnEditDish.Location = new System.Drawing.Point(308, 393);
+            this.btnEditDish.Location = new System.Drawing.Point(631, 484);
             this.btnEditDish.Name = "btnEditDish";
             this.btnEditDish.Size = new System.Drawing.Size(133, 37);
             this.btnEditDish.TabIndex = 9;
@@ -149,9 +164,9 @@
             // 
             // btnToProductForm
             // 
-            this.btnToProductForm.Location = new System.Drawing.Point(165, 455);
+            this.btnToProductForm.Location = new System.Drawing.Point(390, 553);
             this.btnToProductForm.Name = "btnToProductForm";
-            this.btnToProductForm.Size = new System.Drawing.Size(111, 37);
+            this.btnToProductForm.Size = new System.Drawing.Size(133, 37);
             this.btnToProductForm.TabIndex = 10;
             this.btnToProductForm.Text = "К продуктам";
             this.btnToProductForm.UseVisualStyleBackColor = true;
@@ -161,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1431, 779);
+            this.ClientSize = new System.Drawing.Size(953, 602);
             this.Controls.Add(this.btnToProductForm);
             this.Controls.Add(this.btnEditDish);
             this.Controls.Add(this.btnDeleteDish);
@@ -176,6 +191,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DishForm";
             this.Text = "Управление блюдами";
+            this.Load += new System.EventHandler(this.DishForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDishes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
