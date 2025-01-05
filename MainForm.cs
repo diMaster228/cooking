@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace cooking
 {
-    public partial class MainForm : BaseForm
+    public partial class MainForm : BaseFormWithMaterial
     {
         public MainForm()
         {
@@ -90,7 +90,7 @@ namespace cooking
             // Обновление темы на других открытых формах
             foreach (Form openForm in Application.OpenForms)
             {
-                if (openForm is BaseForm form) // Обновляем только формы, наследующие от BaseForm
+                if (openForm is BaseFormWithMaterial form) // Обновляем только формы, наследующие от BaseForm
                 {
                     form.UpdateTheme(isDarkMode);
                 }

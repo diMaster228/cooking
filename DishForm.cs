@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace cooking
 {
-    public partial class DishForm : BaseForm
+    public partial class DishForm : BaseFormWithMaterial
     {
         private DishDAL dishDAL = new DishDAL();
         private MainForm mainForm; // Ссылка на главную форму

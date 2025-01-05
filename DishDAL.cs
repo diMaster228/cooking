@@ -15,7 +15,7 @@ namespace cooking
             using (MySqlConnection conn = db.GetConnection())
             {
                 conn.Open();
-                string query = "SELECT Name, Category, Recipe, PortionWeight FROM Dish";
+                string query = "SELECT DishID, Name, Category, Recipe, PortionWeight FROM Dish";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();

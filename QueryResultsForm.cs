@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace cooking
 {
-    public partial class QueryResultsForm : BaseForm
+    public partial class QueryResultsForm : BaseFormWithMaterial
     {
         private MainForm mainForm;
         private DataTable data;

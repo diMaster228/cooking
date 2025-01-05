@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace cooking
 {
-    public partial class ReportForm : BaseForm
+    public partial class ReportForm : BaseFormWithMaterial
     {
         private Data.Database db = new Data.Database();
         private MainForm mainForm; // Ссылка на главную форму

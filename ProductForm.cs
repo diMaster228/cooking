@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace cooking
 {
-    public partial class ProductForm : BaseForm
+    public partial class ProductForm : BaseFormWithMaterial
     {
         private DishDAL dishDAL = new DishDAL(); // Класс для работы с данными
         private MainForm mainForm; // Ссылка на главную форму

@@ -44,7 +44,7 @@
             // 
             // btnToProductForm
             // 
-            this.btnToProductForm.Location = new System.Drawing.Point(56, 542);
+            this.btnToProductForm.Location = new System.Drawing.Point(56, 571);
             this.btnToProductForm.Name = "btnToProductForm";
             this.btnToProductForm.Size = new System.Drawing.Size(176, 61);
             this.btnToProductForm.TabIndex = 4;
@@ -54,7 +54,7 @@
             // 
             // btnToDishForm
             // 
-            this.btnToDishForm.Location = new System.Drawing.Point(268, 542);
+            this.btnToDishForm.Location = new System.Drawing.Point(268, 571);
             this.btnToDishForm.Margin = new System.Windows.Forms.Padding(4);
             this.btnToDishForm.Name = "btnToDishForm";
             this.btnToDishForm.Size = new System.Drawing.Size(176, 61);
@@ -65,7 +65,7 @@
             // 
             // btnToMainForm
             // 
-            this.btnToMainForm.Location = new System.Drawing.Point(480, 542);
+            this.btnToMainForm.Location = new System.Drawing.Point(480, 571);
             this.btnToMainForm.Margin = new System.Windows.Forms.Padding(4);
             this.btnToMainForm.Name = "btnToMainForm";
             this.btnToMainForm.Size = new System.Drawing.Size(176, 61);
@@ -77,7 +77,7 @@
             // lblReportResult
             // 
             this.lblReportResult.AutoSize = true;
-            this.lblReportResult.Location = new System.Drawing.Point(67, 98);
+            this.lblReportResult.Location = new System.Drawing.Point(67, 140);
             this.lblReportResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReportResult.Name = "lblReportResult";
             this.lblReportResult.Size = new System.Drawing.Size(0, 16);
@@ -85,7 +85,7 @@
             // 
             // categoryTextBox
             // 
-            this.categoryTextBox.Location = new System.Drawing.Point(394, 459);
+            this.categoryTextBox.Location = new System.Drawing.Point(394, 491);
             this.categoryTextBox.Name = "categoryTextBox";
             this.categoryTextBox.Size = new System.Drawing.Size(262, 22);
             this.categoryTextBox.TabIndex = 11;
@@ -97,7 +97,7 @@
             // 
             // minCostTextBox
             // 
-            this.minCostTextBox.Location = new System.Drawing.Point(56, 459);
+            this.minCostTextBox.Location = new System.Drawing.Point(56, 491);
             this.minCostTextBox.Name = "minCostTextBox";
             this.minCostTextBox.Size = new System.Drawing.Size(262, 22);
             this.minCostTextBox.TabIndex = 12;
@@ -108,7 +108,7 @@
             // 
             // query1
             // 
-            this.query1.Location = new System.Drawing.Point(56, 52);
+            this.query1.Location = new System.Drawing.Point(56, 94);
             this.query1.Name = "query1";
             this.query1.Size = new System.Drawing.Size(218, 77);
             this.query1.TabIndex = 13;
@@ -119,7 +119,7 @@
             // 
             // query2
             // 
-            this.query2.Location = new System.Drawing.Point(437, 52);
+            this.query2.Location = new System.Drawing.Point(437, 94);
             this.query2.Name = "query2";
             this.query2.Size = new System.Drawing.Size(218, 77);
             this.query2.TabIndex = 14;
@@ -129,7 +129,7 @@
             // 
             // query3
             // 
-            this.query3.Location = new System.Drawing.Point(56, 190);
+            this.query3.Location = new System.Drawing.Point(56, 232);
             this.query3.Name = "query3";
             this.query3.Size = new System.Drawing.Size(218, 77);
             this.query3.TabIndex = 15;
@@ -139,7 +139,7 @@
             // 
             // query4
             // 
-            this.query4.Location = new System.Drawing.Point(437, 190);
+            this.query4.Location = new System.Drawing.Point(437, 232);
             this.query4.Name = "query4";
             this.query4.Size = new System.Drawing.Size(218, 77);
             this.query4.TabIndex = 16;
@@ -150,7 +150,7 @@
             // 
             // paramQuery
             // 
-            this.paramQuery.Location = new System.Drawing.Point(393, 336);
+            this.paramQuery.Location = new System.Drawing.Point(393, 368);
             this.paramQuery.Name = "paramQuery";
             this.paramQuery.Size = new System.Drawing.Size(262, 105);
             this.paramQuery.TabIndex = 17;
@@ -161,7 +161,7 @@
             // 
             // crossQuery
             // 
-            this.crossQuery.Location = new System.Drawing.Point(56, 336);
+            this.crossQuery.Location = new System.Drawing.Point(56, 368);
             this.crossQuery.Name = "crossQuery";
             this.crossQuery.Size = new System.Drawing.Size(262, 105);
             this.crossQuery.TabIndex = 18;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 645);
+            this.ClientSize = new System.Drawing.Size(730, 688);
             this.Controls.Add(this.crossQuery);
             this.Controls.Add(this.paramQuery);
             this.Controls.Add(this.query4);

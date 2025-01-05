@@ -39,7 +39,7 @@
             // 
             // btnViewDishes
             // 
-            this.btnViewDishes.Location = new System.Drawing.Point(25, 40);
+            this.btnViewDishes.Location = new System.Drawing.Point(36, 105);
             this.btnViewDishes.Margin = new System.Windows.Forms.Padding(4);
             this.btnViewDishes.Name = "btnViewDishes";
             this.btnViewDishes.Size = new System.Drawing.Size(177, 77);
@@ -50,7 +50,7 @@
             // 
             // btnReports
             // 
-            this.btnReports.Location = new System.Drawing.Point(254, 40);
+            this.btnReports.Location = new System.Drawing.Point(265, 105);
             this.btnReports.Margin = new System.Windows.Forms.Padding(4);
             this.btnReports.Name = "btnReports";
             this.btnReports.Size = new System.Drawing.Size(177, 77);
@@ -61,7 +61,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(254, 196);
+            this.btnExit.Location = new System.Drawing.Point(265, 261);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(177, 77);
             this.btnExit.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             // btnViewProducts
             // 
-            this.btnViewProducts.Location = new System.Drawing.Point(25, 196);
+            this.btnViewProducts.Location = new System.Drawing.Point(36, 261);
             this.btnViewProducts.Name = "btnViewProducts";
             this.btnViewProducts.Size = new System.Drawing.Size(177, 77);
             this.btnViewProducts.TabIndex = 4;
@@ -83,9 +83,9 @@
             // 
             this.themeToggle.AutoSize = true;
             this.themeToggle.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.themeToggle.Location = new System.Drawing.Point(0, 319);
+            this.themeToggle.Location = new System.Drawing.Point(0, 397);
             this.themeToggle.Name = "themeToggle";
-            this.themeToggle.Size = new System.Drawing.Size(466, 20);
+            this.themeToggle.Size = new System.Drawing.Size(501, 20);
             this.themeToggle.TabIndex = 5;
             this.themeToggle.Text = "Темная тема";
             this.themeToggle.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 339);
+            this.ClientSize = new System.Drawing.Size(501, 417);
             this.Controls.Add(this.themeToggle);
             this.Controls.Add(this.btnViewProducts);
             this.Controls.Add(this.btnExit);
